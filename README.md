@@ -1,10 +1,13 @@
 # Artificial-neural-network
 Implementation of an artificial neural network  without using machine learning libraries. 
+
 It has 2 hidden layers and  an input and output layer. Each hidden layer has 5 neurons.  As a loss function we will use the binary cross entropy.
 
 To minimize the loss stochastic gradient descent is used and find the weights that optmize our validation accuracy.
 
 Implemented the backpropagation algorithm to solve this problem. 
+
+
 The network uses k-fold cross-validation with early stopping to find the best possible hyperparameters. 
 • Divide your data set, randomly in two parts:
 training set (95%) and validation set (5%).
