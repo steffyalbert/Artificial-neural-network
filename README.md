@@ -9,10 +9,17 @@ Implemented the backpropagation algorithm to solve this problem.
 
 
 The network uses k-fold cross-validation with early stopping to find the best possible hyperparameters. 
-• Divide your data set, randomly in two parts:
-training set (95%) and validation set (5%).
+
+
+• Divide your data set, randomly in two parts: training set (95%) and validation set (5%).
+
+
 • Train only on the training set and evaluate the per-example error on the validation set once in a
 while, after every 250th iteration.
+
+
 • Stop training as soon as the error on the validation set is higher than it was the last p times was
 checked.
+
+
 • Use the weights the network had in that previous step as the result of the training run.
